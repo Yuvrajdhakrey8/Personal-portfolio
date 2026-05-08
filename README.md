@@ -87,7 +87,6 @@ A modern, fully responsive personal portfolio built with **React 18 + Vite 5** a
     │   ├── Skills.jsx
     │   ├── Experience.jsx
     │   ├── Education.jsx
-    │   ├── Certificates.jsx
     │   ├── Contact.jsx
     │   └── NotFound.jsx
     ├── config/
@@ -135,7 +134,6 @@ npm run preview
 | 💼 Experience   | Internships and professional work history                         |
 | 🎓 Education    | B.E. Electronics & Communication — Government Engineering College |
 | 🛠️ Skills       | Categorized technical skills with icons                           |
-| 🏆 Certificates | Professional certifications                                       |
 | 📞 Contact      | Email, WhatsApp, LinkedIn, GitHub                                 |
 
 </div>
@@ -164,7 +162,7 @@ This portfolio is fully SEO-optimized:
 
 [![Email](https://img.shields.io/badge/Email-yuvrajdhakrey8%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:yuvrajdhakrey8@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yuvrajdhakrey-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuvraj-k-dhakrey-a2597b241/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-yuvraj--dhakrey.vercel.app-orange?style=for-the-badge&logo=vercel)](https://yuvraj-dhakrey.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-AWS--S3-orange?style=for-the-badge&logo=amazonaws)](http://yuvrajdhakrey-portfolio.s3-website-us-east-1.amazonaws.com/)
 
 </div>
 

@@ -11,7 +11,6 @@ const Education = lazy(() => import("./pages/Education"));
 const Experience = lazy(() => import("./pages/Experience"));
 const Skills = lazy(() => import("./pages/Skills"));
 const Projects = lazy(() => import("./pages/Projects"));
-const Certificates = lazy(() => import("./pages/Certificates"));
 const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
@@ -46,11 +45,6 @@ const pageMeta = {
     title: "Education - Yuvraj Dhakrey | B.E. Electronics & Communication",
     description:
       "Educational background of Yuvraj Dhakrey — Bachelor of Engineering in Electronics & Communication.",
-  },
-  "/certificates": {
-    title: "Certificates - Yuvraj Dhakrey | Developer Certifications",
-    description:
-      "Professional certifications and achievements of Yuvraj Dhakrey in web development and cloud technologies.",
   },
   "/contact": {
     title: "Contact - Yuvraj Dhakrey | Hire a Full Stack Developer",
@@ -115,7 +109,6 @@ function App() {
               <Route path="/experience" element={<Experience />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/certificates" element={<Certificates />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

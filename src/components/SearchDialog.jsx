@@ -25,7 +25,7 @@ const searchData = [
     title: 'Experience',
     description: 'Check out my professional experience',
     path: '/experience',
-    keywords: ['experience', 'work', 'career', 'jobs', 'professional', 'internships', 'certificates', 'mern', 'web developer', 'full stack', 'software developer'],
+    keywords: ['experience', 'work', 'career', 'jobs', 'professional', 'internships', 'mern', 'web developer', 'full stack', 'software developer'],
   },
   {
     title: 'Skills',
@@ -38,12 +38,6 @@ const searchData = [
     description: 'View my portfolio of projects',
     path: '/projects',
     keywords: ['projects', 'portfolio', 'work', 'examples', 'github', 'code', 'open-source', 'web applications', 'full stack', 'mern stack', 'react', 'node'],
-  },
-  {
-    title: 'Certificates',
-    description: 'View my certifications and achievements',
-    path: '/certificates',
-    keywords: ['certificates', 'certifications', 'achievements', 'courses', 'learning', 'skills', 'professional', 'development', 'awards', 'badges'],
   },
   {
     title: 'Contact',

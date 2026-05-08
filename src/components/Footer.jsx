@@ -11,13 +11,12 @@ const Footer = () => {
     { name: "Experience", path: "/experience" },
     { name: "Skills", path: "/skills" },
     { name: "Projects", path: "/projects" },
-    { name: "Certificates", path: "/certificates" },
     { name: "Contact", path: "/contact" },
   ];
 
   const column1 = pageLinks.slice(0, 3);
-  const column2 = pageLinks.slice(3, 6);
-  const column3 = pageLinks.slice(6, 9);
+  const column2 = pageLinks.slice(3, 5);
+  const column3 = pageLinks.slice(5, 7);
 
   return (
     <footer className="relative mt-24">
