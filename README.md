@@ -181,18 +181,6 @@ This portfolio is fully SEO-optimized:
 
 ---
 
-## 📈 GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yuvraj-dhakrey&theme=dark&hide_border=true)](https://github.com/Yuvrajdhakrey8)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yuvraj-dhakrey&layout=compact&theme=dark&hide_border=true)](https://github.com/Yuvrajdhakrey8)
-
-</div>
-
----
-
 ## 📄 License
 
 <div align="center">
