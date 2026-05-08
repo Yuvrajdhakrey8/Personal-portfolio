@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/website?label=Live%20Portfolio&style=for-the-badge&url=https%3A%2F%2Fyuvraj-dhakrey.vercel.app)](https://yuvraj-dhakrey.vercel.app)
 [![GitHub followers](https://img.shields.io/github/followers/yuvraj-dhakrey?logo=github&style=for-the-badge)](https://github.com/Yuvrajdhakrey8)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yuvrajdhakrey)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuvraj-k-dhakrey-a2597b241/)
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://yuvraj-dhakrey.vercel.app)
 
 <p align="center">
@@ -174,7 +174,7 @@ This portfolio is fully SEO-optimized:
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-yuvrajdhakrey8%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:yuvrajdhakrey8@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yuvrajdhakrey-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yuvrajdhakrey)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yuvrajdhakrey-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuvraj-k-dhakrey-a2597b241/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-yuvraj--dhakrey.vercel.app-orange?style=for-the-badge&logo=vercel)](https://yuvraj-dhakrey.vercel.app)
 
 </div>
@@ -184,11 +184,6 @@ This portfolio is fully SEO-optimized:
 ## 📄 License
 
 <div align="center">
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=yuvraj-dhakrey%2FSoftware-Dev-Portfolio&label=Visitors&labelColor=%23000000&countColor=%2322d3ee)](https://visitorbadge.io/status?path=yuvraj-dhakrey%2FSoftware-Dev-Portfolio)
 
 <h3>⭐ Star this repo if you found it helpful!</h3>
 

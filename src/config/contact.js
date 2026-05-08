@@ -10,7 +10,7 @@ export const CONTACT_INFO = {
   location: 'Surat, Gujarat, India',
   timezone: 'IST (UTC+5:30)',
   github: 'https://github.com/Yuvrajdhakrey8',
-  linkedin: 'https://linkedin.com/in/yuvrajdhakrey',
+  linkedin: 'https://www.linkedin.com/in/yuvraj-k-dhakrey-a2597b241/',
   twitter: '@yuvraj_dev',
 }
 

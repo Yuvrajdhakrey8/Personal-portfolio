@@ -27,29 +27,25 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // EmailJS Configuration
-    // Step 1: Sign up at https://www.emailjs.com/
-    // Step 2: Create a service (e.g., Gmail) and get Service ID
-    // Step 3: Create a template and get Template ID
-    // Step 4: Get Public Key from Account Settings
-    const serviceId = "YOUR_SERVICE_ID";
-    const templateId = "YOUR_TEMPLATE_ID";
-    const publicKey = "YOUR_PUBLIC_KEY";
+    // EmailJS Configuration from .env
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-    const templateParams = {
+    const adminParams = {
       from_name: formData.name,
       from_email: formData.email,
       subject: formData.subject,
       message: formData.message,
-      to_name: "Yuvraj Dhakrey",
+      reply_to: formData.email, // This allows you to click 'Reply' in your email to respond directly
     };
 
     try {
       const result = await emailjs.send(
         serviceId,
         templateId,
-        templateParams,
-        publicKey
+        adminParams,
+        publicKey,
       );
 
       if (result.status === 200) {
@@ -96,7 +92,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      link: "https://linkedin.com/in/yuvrajdhakrey",
+      link: "https://www.linkedin.com/in/yuvraj-k-dhakrey-a2597b241/",
     },
     {
       icon: <MessageCircle className="w-5 h-5" />,
@@ -209,22 +205,6 @@ const Contact = () => {
                     </span>
                   </motion.a>
                 ))}
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="bg-gray-800/50 p-5 sm:p-6 rounded-xl backdrop-blur-sm"
-            >
-              <h3 className="text-lg sm:text-xl font-semibold mb-4">
-                Office Hours
-              </h3>
-              <div className="space-y-2 text-gray-400 text-sm sm:text-base">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM (IST)</p>
-                <p>Saturday: 10:00 AM - 2:00 PM (IST)</p>
-                <p>Sunday: Closed</p>
               </div>
             </motion.div>
           </div>

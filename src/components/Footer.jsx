@@ -119,7 +119,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" aria-hidden="true" />
               </a>
               <a
-                href="https://linkedin.com/in/yuvrajdhakrey"
+                href="https://www.linkedin.com/in/yuvraj-k-dhakrey-a2597b241/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"

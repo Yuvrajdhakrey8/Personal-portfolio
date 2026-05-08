@@ -9,7 +9,7 @@ const About = () => {
   const achievements = [
     {
       icon: <Code2 className="w-6 h-6" />,
-      title: "2+ Key Projects",
+      title: "4+ Key Projects",
       description: "Scalable full-stack applications",
     },
     {
