@@ -2,6 +2,8 @@
 
 # Yuvraj Dhakrey — Portfolio 🚀
 
+**🔗 Live Website:** [Click here to view](http://yuvrajdhakrey-portfolio.s3-website-us-east-1.amazonaws.com/)
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,vite,typescript,tailwind,nodejs,mongodb,express,git" alt="Tech Stack Icons" />
 </p>
@@ -54,87 +56,19 @@ A modern, fully responsive personal portfolio built with **React 18 + Vite 5** a
 
 </div>
 
----
-
-## 📁 Project Structure
-
-```
-├── public/
-│   ├── favicon.ico
-│   ├── favicon-16x16.png
-│   ├── favicon-32x32.png
-│   ├── favicon-192.png
-│   ├── favicon-512.png
-│   ├── apple-touch-icon.png
-│   ├── og-image.png
-│   ├── manifest.json
-│   ├── robots.txt
-│   └── sitemap.xml
-└── src/
-    ├── assets/
-    ├── components/
-    │   ├── Background3D.jsx
-    │   ├── Footer.jsx
-    │   ├── Loading.jsx
-    │   ├── Navbar.jsx
-    │   ├── ScrollAnimation.jsx
-    │   ├── SearchDialog.jsx
-    │   └── TechLogos.jsx
-    ├── pages/
-    │   ├── Home.jsx
-    │   ├── About.jsx
-    │   ├── Projects.jsx
-    │   ├── Skills.jsx
-    │   ├── Experience.jsx
-    │   ├── Education.jsx
-    │   ├── Contact.jsx
-    │   └── NotFound.jsx
-    ├── config/
-    │   └── contact.js
-    ├── App.jsx
-    ├── main.jsx
-    └── index.css
-```
-
----
-
-## 🛠️ Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/Yuvrajdhakrey8/Personal-portfolio
-
-# Navigate to project
-cd Personal-portfolio
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
----
-
 ## 🎯 Portfolio Sections
 
 <div align="center">
 
-| Section         | Description                                                       |
-| --------------- | ----------------------------------------------------------------- |
-| 🏠 Home         | Introduction, live GitHub stats, social links                     |
-| 👨‍💻 About        | Background, achievements, areas of interest                       |
-| 📂 Projects     | Full stack projects with tech stack details                       |
-| 💼 Experience   | Internships and professional work history                         |
-| 🎓 Education    | B.E. Electronics & Communication — Government Engineering College |
-| 🛠️ Skills       | Categorized technical skills with icons                           |
-| 📞 Contact      | Email, WhatsApp, LinkedIn, GitHub                                 |
+| Section       | Description                                                       |
+| ------------- | ----------------------------------------------------------------- |
+| 🏠 Home       | Introduction, live GitHub stats, social links                     |
+| 👨‍💻 About      | Background, achievements, areas of interest                       |
+| 📂 Projects   | Full stack projects with tech stack details                       |
+| 💼 Experience | Internships and professional work history                         |
+| 🎓 Education  | B.E. Electronics & Communication — Government Engineering College |
+| 🛠️ Skills     | Categorized technical skills with icons                           |
+| 📞 Contact    | Email, WhatsApp, LinkedIn, GitHub                                 |
 
 </div>
 
