@@ -2,24 +2,13 @@
 
 # Yuvraj Dhakrey — Portfolio 🚀
 
-[![Website](https://img.shields.io/website?label=Live%20Portfolio&style=for-the-badge&url=https%3A%2F%2Fyuvraj-dhakrey.vercel.app)](https://yuvraj-dhakrey.vercel.app)
-[![GitHub followers](https://img.shields.io/github/followers/yuvraj-dhakrey?logo=github&style=for-the-badge)](https://github.com/Yuvrajdhakrey8)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuvraj-k-dhakrey-a2597b241/)
-[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://yuvraj-dhakrey.vercel.app)
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,vite,typescript,tailwind,nodejs,mongodb,express,git" alt="Tech Stack Icons" />
 </p>
 
 <h3>Full Stack Developer · MERN Stack Specialist · Surat, Gujarat, India</h3>
 
-[🌐 View Live](https://yuvraj-dhakrey.vercel.app) · [🐛 Report Bug](https://github.com/Yuvrajdhakrey8/Software-Dev-Portfolio/issues) · [✨ Request Feature](https://github.com/Yuvrajdhakrey8/Software-Dev-Portfolio/issues)
-
 <br/>
-
-<img src="https://yuvraj-dhakrey.vercel.app/og-image.png" alt="Yuvraj Dhakrey Portfolio Preview" width="80%" style="border-radius: 12px;" />
-
-</div>
 
 ---
 
