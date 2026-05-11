@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Code2, Briefcase, GraduationCap, Globe } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 import profileImg from "@/assets/profile/profile.jpeg";
-import cvPdf from "@/assets/files/cv_pdf/Yuvraj_Dhakrey(CV).pdf";
+import cvPdf from "@/assets/files/cv_pdf/Yuvraj_Resume.pdf";
 
 const About = () => {
   const achievements = [
@@ -34,7 +34,7 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20 px-4 max-w-4xl mx-auto pb-20">
+    <section id="about" className="min-h-screen pt-20 px-4 max-w-4xl mx-auto pb-20">
       <ScrollAnimation>
         <motion.h2 className="text-4xl font-bold mb-8 gradient-text">
           About Me
@@ -108,12 +108,12 @@ const About = () => {
               >
                 Download CV
               </a>
-              <Link
-                to="/skills"
+               <a
+                href="#skills"
                 className="px-6 py-3 bg-white/10 text-white rounded-full font-medium hover:bg-white/20 transition-colors"
               >
                 My Skills
-              </Link>
+              </a>
             </div>
           </ScrollAnimation>
         </ScrollAnimation>
@@ -157,7 +157,7 @@ const About = () => {
           </div>
         </div>
       </ScrollAnimation>
-    </div>
+    </section>
   );
 };
 

@@ -5,13 +5,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const pageLinks = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Education", path: "/education" },
-    { name: "Experience", path: "/experience" },
-    { name: "Skills", path: "/skills" },
-    { name: "Projects", path: "/projects" },
-    { name: "Contact", path: "/contact" },
+    { name: "Home", path: "#home" },
+    { name: "About", path: "#about" },
+    { name: "Education", path: "#education" },
+    { name: "Experience", path: "#experience" },
+    { name: "Skills", path: "#skills" },
+    { name: "Projects", path: "#projects" },
+    { name: "Contact", path: "#contact" },
   ];
 
   const column1 = pageLinks.slice(0, 3);
@@ -70,35 +70,35 @@ const Footer = () => {
             <div className="grid grid-cols-3 gap-x-6 gap-y-3">
               <div>
                 {column1.map((link) => (
-                  <Link
+                  <a
                     key={link.path}
-                    to={link.path}
+                    href={link.path}
                     className="block text-sm text-gray-400 hover:text-white transition-colors mb-2"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 ))}
               </div>
               <div>
                 {column2.map((link) => (
-                  <Link
+                  <a
                     key={link.path}
-                    to={link.path}
+                    href={link.path}
                     className="block text-sm text-gray-400 hover:text-white transition-colors mb-2"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 ))}
               </div>
               <div>
                 {column3.map((link) => (
-                  <Link
+                  <a
                     key={link.path}
-                    to={link.path}
+                    href={link.path}
                     className="block text-sm text-gray-400 hover:text-white transition-colors mb-2"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>

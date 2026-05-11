@@ -103,13 +103,20 @@ function App() {
         <main className="flex-grow">
           <Suspense fallback={<Loading />}>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/education" element={<Education />} />
-              <Route path="/experience" element={<Experience />} />
-              <Route path="/skills" element={<Skills />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route
+                path="/"
+                element={
+                  <div className="flex flex-col">
+                    <Home />
+                    <About />
+                    <Education />
+                    <Experience />
+                    <Skills />
+                    <Projects />
+                    <Contact />
+                  </div>
+                }
+              />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

@@ -12,7 +12,7 @@ import {
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import useSWR from "swr";
-import cvPdf from "@/assets/files/cv_pdf/Yuvraj_Dhakrey(CV).pdf";
+import cvPdf from "@/assets/files/cv_pdf/Yuvraj_Resume.pdf";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -60,7 +60,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 mt-7 sm:mt-0 md:mt-3 lg:mt-5">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 mt-7 sm:mt-0 md:mt-3 lg:mt-5">
       <div className="text-center relative z-10 max-w-4xl mx-auto">
         <motion.h1
           className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
@@ -105,13 +105,13 @@ const Home = () => {
               <FileDown className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
               Download CV
             </a>
-            <Link
-              to="/about"
+            <a
+              href="#about"
               className="px-4 sm:px-6 py-2.5 sm:py-3 bg-white/10 text-white rounded-full text-sm sm:text-base font-medium hover:bg-white/20 transition-colors flex items-center gap-2"
             >
               <User className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
               About Me
-            </Link>
+            </a>
           </div>
 
           <button
@@ -224,7 +224,7 @@ const Home = () => {
           </motion.a>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

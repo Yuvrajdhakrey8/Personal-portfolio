@@ -1,25 +1,43 @@
-import { motion } from 'framer-motion'
-import { GraduationCap, Calendar, MapPin, BookOpen, Award, FileText, ExternalLink } from 'lucide-react'
-import { ScrollAnimation } from '@/components/ScrollAnimation'
+import { motion } from "framer-motion";
+import {
+  GraduationCap,
+  Calendar,
+  MapPin,
+  BookOpen,
+  Award,
+  FileText,
+  ExternalLink,
+} from "lucide-react";
+import { ScrollAnimation } from "@/components/ScrollAnimation";
+import collegeImg from "@/assets/education/college_img.jpeg";
 
 const Education = () => {
   const educationData = [
     {
-      school: 'Government Engineering College',
-      location: 'India',
-      duration: '2019 - 2023',
-      degree: 'Bachelor of Engineering (Electronics & Communication)',
-      grade: 'Completed',
-      image: '', // Add your college image path here
-      resultUrl: '#',
-      coursework: ["Full Stack Development", 'Electronics', 'Communication Systems', 'Microprocessors', 'Embedded Systems'],
+      school: "Government Engineering College",
+      location: "India",
+      duration: "2019 - 2023",
+      degree: "Bachelor of Engineering (Electronics & Communication)",
+      grade: "Completed",
+      image: collegeImg,
+      resultUrl: "#",
+      coursework: [
+        "Full Stack Development",
+        "Electronics",
+        "Communication Systems",
+        "Microprocessors",
+        "Embedded Systems",
+      ],
       description:
-        'Completed Bachelor of Engineering in Electronics & Communication, building a strong foundation in both hardware and software systems. Transitioned into software development with a focus on web technologies.',
+        "Completed Bachelor of Engineering in Electronics & Communication, building a strong foundation in both hardware and software systems. Transitioned into software development with a focus on web technologies.",
     },
-  ]
+  ];
 
   return (
-    <div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto pb-20">
+    <section
+      id="education"
+      className="min-h-screen pt-20 px-4 max-w-6xl mx-auto pb-20"
+    >
       <ScrollAnimation>
         <motion.div
           className="flex items-center gap-3 mb-12"
@@ -85,7 +103,10 @@ const Education = () => {
                     <div className="mb-6">
                       <div className="flex flex-wrap gap-2">
                         {edu.coursework.map((course) => (
-                          <span key={course} className="px-3 py-1 bg-white/10 rounded-full text-sm">
+                          <span
+                            key={course}
+                            className="px-3 py-1 bg-white/10 rounded-full text-sm"
+                          >
                             {course}
                           </span>
                         ))}
@@ -97,7 +118,10 @@ const Education = () => {
                     <div className="mb-6">
                       <div className="flex flex-wrap gap-2">
                         {edu.subjects.map((subject) => (
-                          <span key={subject} className="px-3 py-1 bg-white/10 rounded-full text-sm">
+                          <span
+                            key={subject}
+                            className="px-3 py-1 bg-white/10 rounded-full text-sm"
+                          >
                             {subject}
                           </span>
                         ))}
@@ -121,8 +145,8 @@ const Education = () => {
           </ScrollAnimation>
         ))}
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Education
+export default Education;

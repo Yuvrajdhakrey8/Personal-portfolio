@@ -7,6 +7,9 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
+import webstrailImg from "@/assets/experience/webstrail_logo.png";
+import zechromeImg from "@/assets/experience/zechrome.jpg";
+import rainbowImg from "@/assets/experience/rainbow.jpg";
 
 const experiences = [
   {
@@ -15,9 +18,10 @@ const experiences = [
     location: "India",
     period: "May 2025 - Present",
     type: "Full Time",
-    image: "", // Add your company logo/image path here
-    certificateUrl: "#", 
+    image: webstrailImg,
+    certificateUrl: "#",
     description: [
+      "Awarded 'Employee of the Month' for outstanding performance and dedication",
       "Actively contributing to live client projects, handling full-cycle web development",
       "Collaborating directly with clients for requirements and updates, working across diverse tech stacks",
       "Solving complex challenges and building scalable frontend & backend solutions",
@@ -29,7 +33,7 @@ const experiences = [
     location: "India",
     period: "Aug 2023 - Mar 2025",
     type: "Full Time",
-    image: "", 
+    image: zechromeImg,
     certificateUrl: "#",
     description: [
       "Developed and maintained scalable web applications using React.js and Node.js",
@@ -43,7 +47,7 @@ const experiences = [
     location: "India",
     period: "Jun 2022 - Jul 2022",
     type: "Internship",
-    image: "", 
+    image: rainbowImg,
     certificateUrl: "#",
     description: [
       "Gained hands-on experience building functional applications using HTML, CSS, JavaScript, and React.js",
@@ -55,7 +59,10 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="min-h-screen pt-16 sm:pt-20 px-4 max-w-5xl mx-auto pb-16 sm:pb-20">
+    <section
+      id="experience"
+      className="min-h-screen pt-16 sm:pt-20 px-4 max-w-5xl mx-auto pb-16 sm:pb-20"
+    >
       <ScrollAnimation>
         <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 gradient-text flex items-center gap-3">
           <Briefcase className="w-7 h-7 sm:w-8 sm:h-8" />
@@ -97,12 +104,20 @@ const Experience = () => {
                         className="flex items-start gap-3 text-gray-300 text-sm sm:text-base"
                       >
                         <ArrowRight className="w-5 h-5 mt-0.5 text-gray-400 flex-shrink-0" />
-                        <span className="leading-relaxed">{item}</span>
+                        <span className="leading-relaxed">
+                          {item.includes("Employee of the Month") ? (
+                            <span className="flex items-center gap-2 text-white font-medium">
+                              {item}
+                            </span>
+                          ) : (
+                            item
+                          )}
+                        </span>
                       </li>
                     ))}
                   </ul>
 
-                  <motion.a
+                  {/* <motion.a
                     href={exp.certificateUrl}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -111,7 +126,7 @@ const Experience = () => {
                   >
                     View Certificate
                     <ExternalLink className="w-4 h-4" />
-                  </motion.a>
+                  </motion.a> */}
                 </div>
 
                 <div className="relative hidden md:block">
@@ -123,7 +138,7 @@ const Experience = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-gray-800/80 to-transparent" />
                   </div>
-                  <div className="relative h-full flex items-center justify-center">
+                  {/* <div className="relative h-full flex items-center justify-center">
                     <motion.a
                       href={exp.certificateUrl}
                       target="_blank"
@@ -134,14 +149,14 @@ const Experience = () => {
                       View Certificate
                       <ExternalLink className="w-4 h-4" />
                     </motion.a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </ScrollAnimation>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

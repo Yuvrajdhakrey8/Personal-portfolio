@@ -78,7 +78,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto pb-20">
+    <section id="projects" className="min-h-screen pt-20 px-4 max-w-6xl mx-auto pb-20">
       <ScrollAnimation>
         <h2 className="text-4xl font-bold mb-12 gradient-text">
           Featured Projects
@@ -125,7 +125,7 @@ const Projects = () => {
           </ScrollAnimation>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
