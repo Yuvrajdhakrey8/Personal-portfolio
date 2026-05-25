@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Code2, Briefcase, GraduationCap, Globe } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
-import profileImg from "@/assets/profile/profile.jpeg";
+import profileImg from "@/assets/profile/profile2.jpeg";
 import cvPdf from "@/assets/files/cv_pdf/Yuvraj_Resume.pdf";
 
 const About = () => {
