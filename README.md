@@ -2,7 +2,7 @@
 
 # Yuvraj Dhakrey — Portfolio 🚀
 
-**🔗 Live Website:** [Click here to view](http://yuvrajdhakrey-portfolio.s3-website-us-east-1.amazonaws.com/)
+**🔗 Live Website:** [Click here to view](https://d2w6bwthyzao6b.cloudfront.net/)
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,vite,typescript,tailwind,nodejs,mongodb,express,git" alt="Tech Stack Icons" />
@@ -96,7 +96,7 @@ This portfolio is fully SEO-optimized:
 
 [![Email](https://img.shields.io/badge/Email-yuvrajdhakrey8%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:yuvrajdhakrey8@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yuvrajdhakrey-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuvraj-k-dhakrey-a2597b241/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-AWS--S3-orange?style=for-the-badge&logo=amazonaws)](http://yuvrajdhakrey-portfolio.s3-website-us-east-1.amazonaws.com/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-AWS--S3-orange?style=for-the-badge&logo=amazonaws)](https://d2w6bwthyzao6b.cloudfront.net/)
 
 </div>
 
